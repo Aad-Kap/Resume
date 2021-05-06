@@ -1,0 +1,874 @@
+html{
+    scroll-behavior: smooth;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #E0EBE8;
+    text-align: center;
+    margin: 0%;
+}
+.navbar-nav{
+    font-family: 'Sacramento';
+    font-size: 1.8rem;
+    
+}
+
+.navbar{
+    background-color: #E0EBE8;
+    
+}
+
+
+
+.animated-icon1 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+    
+    .animated-icon1 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    }
+    
+    .animated-icon1 span {
+    background: #4AB19A;
+    }
+    
+
+    
+    .animated-icon1 span:nth-child(1) {
+    top: 0px;
+    }
+    
+    .animated-icon1 span:nth-child(2) {
+    top: 10px;
+    }
+    
+    .animated-icon1 span:nth-child(3) {
+    top: 20px;
+    }
+    
+    .animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    }
+    
+    .animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+    }
+    
+    .animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    }
+
+
+
+
+
+.navbar-brand{
+    font-family: 'Sacramento';
+    font-size: 1.8rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-element{
+    color: #4AB19A;
+    
+
+}
+.cloud1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+  
+}
+.cloud{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    
+    
+}
+
+.land{
+    margin-top: 1%;
+}
+.top-container{
+  
+  color: #4AB19A;
+}
+.middle-container{
+    background-color: white;
+}
+.main-head{
+    font-family:'Sacramento', cursive;
+    font-size: 6rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+.subtitle-main{
+    font-family: cursive;
+    font-size: 1.2rem;
+   
+}
+.middle-container{
+    padding-top: 200px;
+   text-align: center;
+   
+   
+}
+.profile-img{
+    position: relative;
+    top:650px;
+    right: 10px;
+    width: 10%;
+    height: 10%;
+    
+   
+
+}
+.profile-head{
+    color: #4AB19A;
+    font-size: 2rem;
+    text-align: center;
+}
+.profile-text{
+    width: 60%;
+   line-height: 2;
+   margin:auto;
+   font-size: 1rem;
+   color: #092532;
+   margin-bottom: 10%;
+   
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #4AB19A;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  h5{
+    font-family: 'Montserrat', sans-serif;
+  }
+  hr{
+    margin: 80px auto 80px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    }
+    .skill-description{
+        width: 60%;
+        margin: auto;
+        text-align: left;
+    }
+    
+    .skill-header{
+        margin-bottom: 10%;
+        margin-top: 8%;
+        color: #4AB19A;
+        font-size: 3rem;
+    }
+    
+.css-img{
+  
+   float: left;
+   width: 20%;
+    margin-left: 10%;
+   padding-bottom: 10%;
+}
+ 
+.react-img{
+  
+    float: left;
+    width: 25%;
+     margin-left: 10%;
+    padding-bottom: 10%;
+ }
+
+.html-img{
+    
+    float: left;
+    width: 18%;
+   margin-bottom: 20px;
+    margin-left: 10%;
+     
+ }
+ .skill-title{
+
+margin-left: 50%;
+padding-bottom: 1%;
+font-weight: bold;
+
+ }
+.skill-text1{
+    margin-left: 50%;
+    line-height: 2;
+    margin-bottom: 20%;
+}
+.gaming-img{
+float: right;
+width: 13%;
+margin-top: 8%;
+margin-right: 13%;
+
+/* position: relative;
+right: -100px;
+float: right; */
+}
+
+
+
+.skill-title2{
+    position: relative;
+    left: 55px;
+    top: 40px;
+    padding-bottom: 1%;
+    font-weight: bold;
+ 
+
+
+}
+.skill-text2{
+  position: relative;
+  left: 55px;
+  line-height: 2;
+  top: 40px;
+  
+  width: 43%;
+    
+}
+
+
+
+.problem-img{
+width: 15%;
+float: left;
+margin-left: 12.5%;
+
+
+
+
+
+}
+
+   
+.skill-text3{
+    
+    width: 48%;
+    margin-left: 50%;
+    line-height: 2;
+    margin-bottom: 200px;
+    
+    
+}
+
+.skill-title3{
+    margin-top: 200px;
+   font-weight: bold;
+    margin-left: 50%
+}
+
+.contact-head{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 1%;
+    font-weight: bolder;
+}
+
+
+.bottom-container{
+   
+    background-color: #4AB19A;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    }
+
+
+.linkedin-img{
+    display: inline;
+    width: 3%;
+    padding-bottom: 3.1%;
+    margin-left: -5%;
+    
+    
+   
+}
+.twitter-img{
+    display: inline;
+    width: 3%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.linkedin-txt{
+    visibility: hidden;
+    position: absolute;
+    left: 430px;
+    top: 30px;;
+}
+.twitter-txt{
+    visibility: hidden;
+    position: absolute;
+    right: 450px;
+    top:30px ;
+}
+.copyright-txt{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   }
+   .copyright{
+       background-color: #4AB19A;
+       margin-top: 0;
+       padding-top: 0;
+     
+   }
+.footer-link{
+    color: #40514e;
+    text-decoration: none;
+    margin-left: 200px;
+  }
+  
+  .footer-link:hover{
+    color: white;
+  }
+  
+
+
+
+
+
+
+
+
+.button {
+    border-radius: 4px;
+    background-color:#4AB19A; 
+    border: none;
+    color: black
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 10px;
+    width: 155px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px;
+    margin-bottom: 100px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+  
+  .button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+  }
+  
+  .button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 2px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .cloud {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    
+
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(150%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .cloud1{
+    animation: 1s ease-out 0s 1 slideInFromRight;
+    
+  }
+ 
+
+
+
+@media(max-device-width: 480px) {
+
+    .animated-icon1 {
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        }
+        
+        .animated-icon1 span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+        }
+        
+        .animated-icon1 span {
+        background: #4AB19A;
+        }
+        
+    
+        
+        .animated-icon1 span:nth-child(1) {
+        top: 0px;
+        }
+        
+        .animated-icon1 span:nth-child(2) {
+        top: 10px;
+        }
+        
+        .animated-icon1 span:nth-child(3) {
+        top: 20px;
+        }
+        
+        .animated-icon1.open span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        }
+        
+        .animated-icon1.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+        }
+        
+        .animated-icon1.open span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        }
+
+
+
+    .profile-head{
+        font-size: 2rem;
+    }
+    .land{
+        width: 50%;
+    }
+    .stickman{
+        visibility: hidden;
+    }
+    .profile-img{
+        position: relative;
+        top: 500px;
+        right: 2%;
+        
+        width: 100px;
+    }
+    .profile-text{
+        width: 100%;
+    }
+    .cloud1{
+        width: 30px;
+        position: absolute;
+        right: 5.5%;
+    }
+    .cloud{
+        width: 30px;
+        position: absolute;
+       left: 2%;
+    }
+    .skill-title3{
+        position: relative;
+        margin-left: 47%;
+    }
+    .skill-text3{
+        position: relative;
+        width: 85%;
+        right: 5px;
+        line-height: 1.5;
+        
+        
+    }
+    .skill-title2{
+        margin-left: -52%;
+    }
+    .skill-title{
+        width: 80%;
+        
+    }
+    .skill-text2{
+        width: 82%;
+        margin-left: -52%;
+        line-height: 1.5;
+        
+
+    }
+    .skill-text1{
+        width: 80%;
+        line-height: 1.5;
+        
+    }
+    
+    .gaming-img{
+     
+      position: relative;
+      margin-top: 35%;
+      width: 20%;
+      left: 50px;
+       
+       
+       
+        
+    }
+    .html-img{
+        margin-top: 20%;
+        position: relative;
+        left: -30%;
+        width: 30%;
+        
+    }
+    .css-img{
+        margin-top: 20%;
+        position: relative;
+        left: -30%;
+        width: 30%;
+    }
+    .react-img{
+        margin-top: 20%;
+        position: relative;
+        left: -30%;
+        width: 30%;
+    }
+    .linkedin-img{
+        position: absolute;
+        left: 35%;
+       width: 6%;
+      margin-right: 0;
+      padding-right: 0;
+      padding-bottom: 5%;
+    }
+    .twitter-img{
+        width: 6%;
+        position: absolute;
+       top: 40%;
+       right: 18%;
+    }
+    .linkedin-txt{
+        visibility: hidden;
+        position: relative;
+        left: -20px;
+        top: -15px;
+    }
+    .twitter-txt{
+       visibility: hidden;
+        position: relative;
+        left: -150px;
+        top: -38px;
+    }
+    div.disabled {
+        overflow-x: hidden; 
+        
+    }
+    .problem-img{
+        width: 30%;
+        float: left;
+        position: relative;
+        left: -60px;
+    }
+    .skills{
+        
+    }
+    
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
+    .animated-icon1 {
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        }
+        
+        .animated-icon1 span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+        }
+        
+        .animated-icon1 span {
+        background: #4AB19A;
+        }
+        
+    
+        
+        .animated-icon1 span:nth-child(1) {
+        top: 0px;
+        }
+        
+        .animated-icon1 span:nth-child(2) {
+        top: 10px;
+        }
+        
+        .animated-icon1 span:nth-child(3) {
+        top: 20px;
+        }
+        
+        .animated-icon1.open span:nth-child(1) {
+        top: 11px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        }
+        
+        .animated-icon1.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+        }
+        
+        .animated-icon1.open span:nth-child(3) {
+        top: 11px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        }
+    .cloud1{
+        width: 50px;
+        position: absolute;
+        right: 5.5%;
+    }
+    .cloud{
+        width: 50px;
+        position: absolute;
+        left: 5%;
+    }
+    
+    .skill-title3{
+        
+        position: relative;
+        left: -20px;
+    }
+    .skill-text3{
+        position: relative;
+        width: 85%;
+        right: 20px;
+        line-height: 1.5;
+        
+        
+    }
+    .skill-title2{
+        position: relative;
+        left: -100px;
+    }
+    .skill-title{
+        width: 80%;
+        position: relative;
+        right: 30px;
+        
+    }
+    .skill-text2{
+        width:80%;
+      position: relative;
+      left: -100px;
+        line-height: 1.5;
+        
+
+    }
+    .skill-text1{
+        width: 80%;
+        position: relative;
+        right: 30px;
+        line-height: 1.5;
+        
+    }
+    
+    .gaming-img{
+     
+      position: relative;
+      margin-top: 10%;
+      width: 20%;
+      left: 50px;
+       
+       
+       
+        
+    }
+    .html-img{
+        margin-top: -1%;
+        width: 20%;
+       margin-left: -10%;
+        
+    }
+    .css-img{
+        margin-top: -1%;
+        width: 20%;
+        margin-left: -10%;
+    }
+    .react-img{
+        margin-top: -1%;
+        width: 20%;
+        margin-left: -10%;
+    }
+    .linkedin-img{
+        position: absolute;
+        left: 35%;
+        top: 25%;
+       width: 4%;
+      margin-right: 0;
+      padding-right: 0;
+      
+    }
+    .twitter-img{
+        width: 4%;
+        position: absolute;
+       top: 25%;
+       right: 20%;
+    }
+    .linkedin-txt{
+        visibility: hidden;
+        position: relative;
+        left: -20px;
+        top: -15px;
+    }
+    .twitter-txt{
+       visibility: hidden;
+        position: relative;
+        left: -150px;
+        top: -38px;
+    }
+    div.disabled {
+        overflow-x: hidden; 
+        
+    }
+    .problem-img{
+        width: 20%;
+        float: left;
+        position: relative;
+        left: -100px;
+        margin-top: -5%;
+    }
+    .bottom-container{
+        
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+}
+
