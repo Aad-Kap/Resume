@@ -564,14 +564,10 @@ margin-left: 12.5%;
         width: 100%;
     }
     .cloud1{
-        width: 30px;
-        position: absolute;
-        right: 5.5%;
+         visibility: hidden;
     }
     .cloud{
-        width: 30px;
-        position: absolute;
-       left: 2%;
+      visibility: hidden;
     }
     .skill-title3{
         position: relative;
