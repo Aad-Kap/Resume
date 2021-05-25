@@ -612,12 +612,17 @@ margin-left: 12.5%;
       position: relative;
       margin-top: 35%;
       width: 20%;
-      left: 50px;
-       
-       
-       
-        
+      left: 50px;   
     }
+    
+    .leadership-img1{
+     
+        position: relative;
+        margin-top: 35%;
+        width: 23%;
+        left: 50px;   
+      }
+    
     .html-img{
         margin-top: 20%;
         position: relative;
